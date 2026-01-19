@@ -17,12 +17,9 @@ Visualización de platos disponibles
 Selección de producto
 
 Registro de pedidos ingresando:
-
-Nombre
-
-Dirección
-
-Cantidad
+- Nombre
+- Dirección
+- Cantidad
 
 Almacenamiento local de pedidos usando SQLite
 
