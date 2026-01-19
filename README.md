@@ -1,14 +1,14 @@
-📱 App Flutter – Lechonería
+📱App Flutter – Lechonería
 
 Aplicación móvil desarrollada en Flutter como proyecto universitario, orientada a la gestión básica de pedidos para una lechonería.
 
-📌 Descripción general
+📌Descripción general
 
 La aplicación permite simular el flujo completo de pedidos de una lechonería, desde el inicio de sesión hasta el registro del pedido.
 
 Fue desarrollada con fines académicos, aplicando conceptos de desarrollo móvil, bases de datos locales y diseño de interfaces.
 
-🚀 Funcionalidades
+🚀Funcionalidades
 
 Inicio de sesión de usuarios
 
@@ -28,18 +28,16 @@ Almacenamiento local de pedidos usando SQLite
 
 Interfaz sencilla e intuitiva
 
-📦 APK
+📦APK
 
 El archivo app-release.apk se incluye como versión compilada de la aplicación para instalación directa en Android.
 
-🛠️ Tecnologías utilizadas
+🛠️Tecnologías utilizadas
 
-Flutter
+- Flutter
+- Dart
+- SQLite
 
-Dart
-
-SQLite
-
-📚 Contexto académico
+📚Contexto académico
 
 Proyecto desarrollado como parte de la carrera de Ingeniería Informática, enfocado en la práctica de desarrollo de aplicaciones móviles y manejo de bases de datos locales.
