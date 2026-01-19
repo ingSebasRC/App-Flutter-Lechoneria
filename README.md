@@ -1,33 +1,45 @@
-# App-Flutter-Lechonería
+📱 App Flutter – Lechonería
 
-Esta es una aplicación desarrollada en Flutter como proyecto personal para la gestión de pedidos de lechona.
+Aplicación móvil desarrollada en Flutter como proyecto universitario, orientada a la gestión básica de pedidos para una lechonería.
 
-## 📱 Descripción
+📌 Descripción general
 
-La aplicación permite a los usuarios:
+La aplicación permite simular el flujo completo de pedidos de una lechonería, desde el inicio de sesión hasta el registro del pedido.
 
-- Realizar pedidos de lechona.
-- Ingresar nombre, dirección y cantidad.
-- Enviar datos para registro de pedidos (solo versión demostrativa).
+Fue desarrollada con fines académicos, aplicando conceptos de desarrollo móvil, bases de datos locales y diseño de interfaces.
 
-> Actualmente solo se encuentra disponible el archivo `.apk`, ya que el código fuente se ha perdido.
+🚀 Funcionalidades
 
-## Archivo disponible
+Inicio de sesión de usuarios
 
-- [`app-release.apk`](./app-release.apk): archivo instalador para Android.
+Visualización de platos disponibles
 
-## Instalación en Android
+Selección de producto
 
-1. Descarga el archivo `.apk` desde este repositorio.
-2. Copia el archivo a tu celular o descárgalo directamente desde GitHub.
-3. Activa **“Permitir instalaciones desde fuentes desconocidas”** en tu teléfono.
-4. Abre el archivo y sigue los pasos para instalar.
+Registro de pedidos ingresando:
 
-## Tecnologías usadas
+Nombre
 
-- Flutter
-- Dart
+Dirección
 
-## Nota
+Cantidad
 
-Este repositorio se mantiene como referencia de la aplicación terminada. El código fuente ya no está disponible.
+Almacenamiento local de pedidos usando SQLite
+
+Interfaz sencilla e intuitiva
+
+📦 APK
+
+El archivo app-release.apk se incluye como versión compilada de la aplicación para instalación directa en Android.
+
+🛠️ Tecnologías utilizadas
+
+Flutter
+
+Dart
+
+SQLite
+
+📚 Contexto académico
+
+Proyecto desarrollado como parte de la carrera de Ingeniería Informática, enfocado en la práctica de desarrollo de aplicaciones móviles y manejo de bases de datos locales.
