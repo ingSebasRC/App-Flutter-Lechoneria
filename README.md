@@ -1,40 +1,90 @@
-App Flutter – Lechonería
+# 🐷 Lechonería Premium App & CRM
 
-Aplicación móvil desarrollada en Flutter como proyecto universitario, orientada a la gestión básica de pedidos para una lechonería.
+¡Bienvenido a **Lechonería Premium**! Una solución integral de delivery y gestión de ventas diseñada para negocios gastronómicos. Este proyecto ha sido desarrollado como una pieza de portafolio profesional, demostrando habilidades avanzadas en el desarrollo de aplicaciones móviles con **Flutter** y gestión de datos local con **SQLite**.
 
-Descripción general
+---
 
-La aplicación permite simular el flujo completo de pedidos de una lechonería, desde el inicio de sesión hasta el registro del pedido.
+## 🚀 Características Principales
 
-Fue desarrollada con fines académicos, aplicando conceptos de desarrollo móvil, bases de datos locales y diseño de interfaces.
+### 🛒 Experiencia del Cliente (Frontend)
+- **Catálogo Categorizado**: Interfaz moderna con navegación por pestañas (Lechona, Bebidas) para una mejor experiencia de usuario.
+- **Sistema de Carrito Avanzado**: Gestión dinámica de cantidades, cálculo automático de subtotales y total.
+- **Flujo de Checkout Optimizado**: Formulario de entrega intuitivo y pantalla de éxito animada con resumen de pedido.
+- **Diseño Responsive & Animado**: Uso de micro-animaciones con `flutter_animate` para una sensación fluida y premium.
 
-Funcionalidades
+### 📊 Panel Administrativo (CRM & Dashboard)
+- **Dashboard Analítico**: Visualización en tiempo real de:
+  - **Ingresos Totales**: Cálculo dinámico de ventas cerradas.
+  - **Pedidos Activos**: Contador de entregas pendientes.
+  - **Producto Estrella**: Algoritmo que detecta el producto más vendido automáticamente.
+- **Gestión de Flujo de Trabajo (Workflow)**: Control total sobre el estado del pedido: `Pendiente` ➔ `En Preparación` ➔ `Enviado` ➔ `Entregado`.
+- **Filtrado por Pestañas**: Organización eficiente de pedidos según su estado actual.
+- **Seguridad**: Acceso protegido para administradores mediante login.
 
-Inicio de sesión de usuarios
+---
 
-Visualización de platos disponibles
+## 🛠️ Stack Tecnológico
 
-Selección de producto
+- **Framework**: [Flutter](https://flutter.dev/) (v3.x+)
+- **Lenguaje**: Dart
+- **Base de Datos**: [SQFlite](https://pub.dev/packages/sqflite) (SQLite local)
+- **Animaciones**: [Flutter Animate](https://pub.dev/packages/flutter_animate)
+- **Fuentes**: Google Fonts (Montserrat & Inter)
+- **Arquitectura**: Patrón de Servicios y Singleton para gestión de estado del carrito.
 
-Registro de pedidos ingresando:
-- Nombre
-- Dirección
-- Cantidad
+---
 
-Almacenamiento local de pedidos usando SQLite
+## 📦 Instalación y Configuración
 
-Interfaz sencilla e intuitiva
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/App-Flutter-Lechoneria.git
+   ```
 
-APK
+2. **Instalar dependencias:**
+   ```bash
+   flutter pub get
+   ```
 
-El archivo app-release.apk se incluye como versión compilada de la aplicación para instalación directa en Android.
+3. **Ejecutar la aplicación:**
+   ```bash
+   flutter run
+   ```
 
-Tecnologías utilizadas
+> **Nota**: Asegúrate de tener configurado tu entorno de desarrollo para Flutter y un emulador (Android/iOS) o dispositivo físico conectado.
 
-- Flutter
-- Dart
-- SQLite
+---
 
-Contexto académico
+## 🔑 Credenciales de Admin
+- **Usuario**: `admin`
+- **Contraseña**: `123`
 
-Proyecto desarrollado como parte de la carrera de Ingeniería Informática, enfocado en la práctica de desarrollo de aplicaciones móviles y manejo de bases de datos locales.
+---
+
+## 📐 Estructura del Proyecto
+
+```text
+lib/
+├── db/             # Gestión de SQLite (versión 4 con migraciones)
+├── modelos/        # Modelos de datos (Pedido, Plato, Usuario, ItemCarrito)
+├── pantallas/      # Vistas principales (Catálogo, CRM, Carrito, etc.)
+├── servicios/      # Lógica de negocio (Carrito, Analítica)
+└── widgets/        # Componentes UI reutilizables
+```
+
+---
+
+## 🛡️ Roadmap de Futuras Mejoras
+- [ ] Integración con Firebase para notificaciones en tiempo real.
+- [ ] Implementación de pasarela de pagos (Stripe/PayU).
+- [ ] Generación de reportes PDF de ventas mensuales.
+- [ ] Geolocalización para rastreo de pedidos en mapa.
+
+---
+
+## 👨‍💻 Autor
+**Ing. Sebas** - [Tu LinkedIn](https://linkedin.com/in/tu-link)
+
+---
+
+*Este proyecto es de código abierto y fue creado con fines educativos y de portafolio profesional.*

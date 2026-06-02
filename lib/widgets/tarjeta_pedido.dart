@@ -9,19 +9,20 @@ class TarjetaPedido extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.symmetric(vertical: 8),
+      margin: const EdgeInsets.symmetric(vertical: 8),
       elevation: 3,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: ListTile(
         leading: CircleAvatar(
           backgroundColor: Colors.deepOrange,
-          child: Text('${pedido.cantidad}'),
+          child: const Icon(Icons.shopping_bag, color: Colors.white),
         ),
-        title: Text(pedido.direccion),
+        title: Text(pedido.nombreCliente),
         subtitle: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Teléfono: ${pedido.telefono}'),
+            Text('Detalles: ${pedido.detalles}'),
+            Text('Total: \$${pedido.total}', style: const TextStyle(fontWeight: FontWeight.bold)),
             Text('Entrega: ${pedido.horaEntrega}'),
           ],
         ),
