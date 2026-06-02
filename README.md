@@ -83,7 +83,7 @@ lib/
 ---
 
 ## 👨‍💻 Autor
-**Ing. Sebas** - [Tu LinkedIn](https://linkedin.com/in/tu-link)
+**Ing. Sebas** - https://www.linkedin.com/in/sebastian-rodr%C3%ADguez-c%C3%A1rdenas-0006782a7/
 
 ---
 
