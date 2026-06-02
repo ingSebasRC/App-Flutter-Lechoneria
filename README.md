@@ -1,6 +1,6 @@
 # 🐷 Lechonería Premium App & CRM
 
-¡Bienvenido a **Lechonería Premium**! Una solución integral de delivery y gestión de ventas diseñada para negocios gastronómicos. Este proyecto ha sido desarrollado como una pieza de portafolio profesional, demostrando habilidades avanzadas en el desarrollo de aplicaciones móviles con **Flutter** y gestión de datos local con **SQLite**.
+¡Bienvenido a **Lechonería Premium**! Una solución integral de delivery y gestión de ventas diseñada para negocios gastronómicos. Este proyecto ha sido desarrollado como proyecto universitario, demostrando habilidades avanzadas en el desarrollo de aplicaciones móviles con **Flutter** y gestión de datos local con **SQLite**.
 
 ---
 
