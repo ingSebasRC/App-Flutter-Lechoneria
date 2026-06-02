@@ -74,12 +74,6 @@ lib/
 
 ---
 
-## 🛡️ Roadmap de Futuras Mejoras
-- [ ] Integración con Firebase para notificaciones en tiempo real.
-- [ ] Implementación de pasarela de pagos (Stripe/PayU).
-- [ ] Generación de reportes PDF de ventas mensuales.
-- [ ] Geolocalización para rastreo de pedidos en mapa.
-
 ---
 
 ## 👨‍💻 Autor
